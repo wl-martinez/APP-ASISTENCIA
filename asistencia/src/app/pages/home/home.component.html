@@ -1,13 +1,13 @@
 <ion-header>
-    <ion-toolbar>
-        <ion-title><ion-img src="https://upload.wikimedia.org/wikipedia/commons/a/aa/Logo_DuocUC.svg"
-                alt="logo"></ion-img></ion-title>
-    </ion-toolbar>
+    <ion-img style="margin-bottom: 10px; margin-top: 5px;"
+        src="https://upload.wikimedia.org/wikipedia/commons/a/aa/Logo_DuocUC.svg" alt="logo">
+    </ion-img>
 </ion-header>
 <ion-content class="ion-padding">
     <ion-card>
         <ion-card-header>
-            <ion-card-title>INGRESO TOMA DE ASISTENCIA</ion-card-title>
+            <ion-card-title style="font-family: 'Times New Roman', Times, serif;">INGRESO TOMA DE
+                ASISTENCIA</ion-card-title>
         </ion-card-header>
         <ion-card-content>
             <ion-list>
@@ -18,8 +18,8 @@
                     <ion-input label="Password:" type="password" value="password"></ion-input>
                 </ion-item>
             </ion-list>
-            <a routerLink="/restore" style="color: red;">
-                <ion-icon name="lock-open-outline"></ion-icon> RECUPERAR CONTRASEÑA
+            <a routerLink="/restore" style="color: red; font-size: 8px;">
+                <ion-icon style="margin-top: 10px;" name="lock-open-outline"></ion-icon> RECUPERAR CONTRASEÑA
             </a>
             <ion-item>
                 <ion-button routerLink="/login" slot="end" size="small"> Ingresar </ion-button>
@@ -29,6 +29,6 @@
 </ion-content>
 <ion-footer>
     <ion-toolbar>
-        <ion-title> Derechos reservados </ion-title>
+        <ion-title style="font-family: 'Times New Roman', Times, serif;"> Derechos reservados </ion-title>
     </ion-toolbar>
 </ion-footer>
